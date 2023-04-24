@@ -1,0 +1,186 @@
+.signupcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 52vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.google1 {
+    margin-top: 2%;
+    padding-right: 80%;
+    font-size: x-large;
+}
+
+.createnew {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 37.6%;
+    margin-top: 10px;
+    font-size: large;
+}
+
+
+.firstcontainer {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 75%;
+}
+
+.secondcontainer {
+    width: 30%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.inputbox1,.inputbox2 {
+    display: flex;
+    margin-top: 18px;
+}
+
+.inputfield3 {
+    margin-top: 3%;
+}
+.username {
+    padding-top: 3%;
+    width: 100%;
+}
+
+.inputfield2,.inputfield5 {
+    margin-left: 2%;   
+}
+.showpassword {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.signinstead {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35%;
+    margin-left: 0.1%;
+    margin-top: 5%;
+    color: blue
+}
+
+.showpassword {
+    margin-top: 2%;
+}
+.check {
+    margin-left: -2.1%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .signupcontainer{
+        width: 90vw;
+    }
+    .google1 ,.createnew{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .firstcontainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;  
+    }
+    .inputbox1,.inputbox2{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+    }
+    .inputfield2,.inputfield5{
+        margin-top: 1%;
+        margin-left: -0.1%;
+    }
+    .inputfield1,.inputfield4{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .inputfield2{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .firstname,.secondname,.password1,.confirm,.username{
+        width: 100%;
+    }
+    .secondcontainer{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .signupcontainer{
+        width: 70vw;
+    }
+    .firstcontainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .google1 ,.createnew{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .inputbox1,.inputbox2{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+    }
+    .inputfield2,.inputfield5{
+        margin-top: 1%;
+        margin-left: -6%;
+    }
+    .inputfield1,.inputfield4{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: -6%;
+    }
+    .inputfield3{
+        margin-left: -6%;
+    }
+    .inputfield2{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .firstname,.secondname,.password1,.confirm,.username{
+        width: 90%;
+    }
+    .secondcontainer{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .firstcontainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .google1 , .createnew{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .inputbox1,.inputbox2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .inputfield1,.inputfield2,.inputfield4,.inputfield5{
+        width: 100%;
+    }
+    .firstname,.secondname,.password1,.confirm,.username{
+        width: 100%;
+    }
+    .secondcontainer{
+        display: none;
+    }
+}

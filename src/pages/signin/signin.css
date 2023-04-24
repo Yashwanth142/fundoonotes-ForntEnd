@@ -1,0 +1,73 @@
+.signin{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 70vh;
+    width: 40vw;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.google,.email,.password,.sin,.useg,.need{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.google{
+    margin-top: 5%;
+    padding-bottom: 2%;
+    font-size: x-large;
+}
+.need{
+    padding-top: 6%;
+}
+.useg{
+    padding-top: 0;
+    padding-bottom: 4%;
+}
+.sin{
+    font-size: large;
+    padding: 0;
+}
+.learn{
+    color: blue;
+}
+.next{
+    margin-top: 4%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: blue;
+}
+.field1,.field2{
+    font-size: medium;
+    width: 80%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .email,.password,.signin{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .signin{
+        width: 65%;
+    }
+    .email,.password{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .signin{
+        width: 50%;
+    }
+    .email,.password{
+        width: 100%;
+    }
+}

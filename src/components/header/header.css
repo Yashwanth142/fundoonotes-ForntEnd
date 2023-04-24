@@ -1,0 +1,53 @@
+.test{
+    padding: 10px;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+.menu,.View,.ricon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu,.ricon{
+    width: 10%;
+    height: 100%;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    outline: none;
+    border-radius: 10px;
+    border: 3px solid grey;
+    width: 60%;
+    height: 100%;
+}
+.View{
+    width: 10%;
+    height: 100%;
+}
+.se{
+    background: transparent;
+    border: none transparent;
+    outline: none;
+    display: flex;
+    width: 100%;
+    color: grey;
+    align-items: center;
+}
+.input{
+    display: flex;
+    justify-content: space-evenly;
+    background: transparent;
+    border: none transparent;
+    outline: none; 
+    width: 100%;
+    color: grey;
+    align-items: center;
+}
